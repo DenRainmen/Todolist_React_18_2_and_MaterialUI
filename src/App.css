@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Press+Start+2P&display=swap');
+
+body{
+  background-color:#459eb0;
+  color:#54f2a8;
+}
+
+.App {
+  padding: 3vw;
+text-align: center;
+  font-family: cursive
+}
+
+.App > div {
+  margin-right: 3vw;
+}
+
+.addItemForm{
+  
+ width: 100%;
+}
+
+.todolist{
+ display: inline-block;
+}
+
+.error {
+  border: red 1px solid;
+}
+
+.error-message {
+  color: red;
+}
+
+.active-filter {
+  background-color: aquamarine;
+}
+
+.is-done {
+  opacity: 0.5;
+}
+
+.delTask{
+  margin-left: 5px;
+  cursor: pointer;
+}
+
